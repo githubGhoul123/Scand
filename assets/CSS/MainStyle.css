@@ -3,3 +3,13 @@ html body {
     margin: 0px;
     padding: 0px;
 }
+
+header {
+    width: 100%;
+
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #004E64;
+    
+}
