@@ -98,11 +98,26 @@ nav {
 
 /* Banner */
 
-/* .banner {
+.banner {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin: -0;
     height: 200px;
-    background: url(../images/Igdrasil.png) center no-repeat;
-  } */
+    min-width: 100%;
+    min-height: 0px;
+    flex-shrink: 0;
+    background: linear-gradient(to top, #004E64, 30%, transparent),
+    url(../images/Igdrasil.png) center no-repeat;
+    background-size: cover;
+  }
+
+.banner-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    font-size: 130px;
+    padding-top: 20px;
+    font-family: SwedieCruel;
+    color: #FFF;
+}
