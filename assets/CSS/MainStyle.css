@@ -121,9 +121,9 @@ nav {
     font-family: SwedieCruel;
     color: #FFF;
 }
-#page_info {
+#page_info_wrap {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1250px;
     display: flex;
     align-items: center;
     margin: 0px auto;
@@ -153,8 +153,23 @@ nav {
     display: flex;
     flex-direction: column
 }
-#shortcut_img {
+#shortcut1_img {
     background: url("../images/forest.png") center no-repeat;
+    width:250px;
+    height:140px;
+}
+#shortcut2_img {
+    background: url("../images/ship.png") center no-repeat;
+    width:250px;
+    height:140px;
+}
+#shortcut3_img {
+    background: url("../images/tourist.png") center no-repeat;
+    width:250px;
+    height:140px;
+}
+#shortcut4_img {
+    background: url("../images/history.png") center no-repeat;
     width:250px;
     height:140px;
 }
@@ -165,9 +180,4 @@ nav {
     font-size: 15px;
     word-break: normal;
     max-width:250px;
-}
-#shortcut_container {
-    display: flex;
-    justify-content: space-evenly;
-    max-width:1200px;
 }
