@@ -39,19 +39,17 @@ header {
 
 #navigation {
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                 Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-                 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans','Helvetica Neue', sans-serif;
     display: flex;
     flex-grow: 3;
     position: relative;
     padding: 0px;
 }
 
-#navigation > li {
+#navigation_li {
     vertical-align: top;
     position: relative;
-    color: #FFF;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: 0.2s linear;
     list-style-type: none;
@@ -85,7 +83,7 @@ nav {
     padding-left: 15px;
     border-radius: 42px;
     border: 3px solid #77B3D4;
-    background: #F7FAFD;
+    background: hwb(0 100% 0%);
     outline: none;
     position: relative;
     transition: 0.3s linear;
@@ -210,5 +208,82 @@ nav {
     color: #57a5ff;
 }
 #nav_active{
-    background-color: teal;
+    color: #57a5ff;
+    list-style-type: none;
+}
+#subpage_info_wrap{
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #57a5ff;
+}
+#subpage_info_text{
+    word-break: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-indent: 25px;
+    margin: 0  auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 2%;
+}
+#nat1_img {
+    background: url("../images/Gal.jpg") center no-repeat;
+    width:500px;
+    height:400px;
+}
+#nat2_img {
+    background: url("../images/Sog.jpg") center no-repeat;
+    width:500px;
+    height:400px;
+}
+#his1_img {
+    background: url("../images/Goth.png") center no-repeat;
+    width:600px;
+    height:600px;
+}
+#his2_img {
+    background: url("../images/vik.jpg") center no-repeat;
+    width:600px;
+    height:600px;
+}
+#tour1_img {
+    background: url("../images/dost.jpg") center no-repeat;
+    width:600px;
+    height:600px;
+}
+#tour2_img {
+    background: url("../images/flags.jpg") center no-repeat;
+    width:600px;
+    height:600px;
+}
+#trad1_img {
+    background: url("../images/Mjollnir.png") center no-repeat;
+    width:600px;
+    height:600px;
+}
+#trad2_img {
+    background: url("../images/runes.jpg") center no-repeat;
+    width:600px;
+    height:600px;
+}
+div.top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: all 0.6s linear;
+}
+#topimg{
+    background: url("../images/top1.png") center no-repeat;
+    width:100px;
+    height:100px;
 }
